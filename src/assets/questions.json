@@ -1,0 +1,871 @@
+[
+  {
+    "question": "What is Bakugo's first name?",
+    "alternatives": [" Katsumi", " Katsugi", " Kakashi", " Katsuki"],
+    "imgUrl": null,
+    "answer": { "alternative": " Katsuki", "index": 3 }
+  },
+  {
+    "question": "When is his birthday?",
+    "alternatives": [" April 17", " April 20", " April 27", " April 2"],
+    "imgUrl": null,
+    "answer": { "alternative": " April 20", "index": 1 }
+  },
+  {
+    "question": "What are his parents' names?",
+    "alternatives": [
+      " Mikasa and Masaru",
+      " Mitsuki and Masaru",
+      " Mitsuki and Masayo",
+      " Mikasa and Masayo"
+    ],
+    "imgUrl": null,
+    "answer": { "alternative": " Mitsuki and Masaru", "index": 1 }
+  },
+  {
+    "question": "Fill in the blank: HERE WE GOOO!! -------------------",
+    "alternatives": [
+      " members of the legacy bakugo",
+      " members of the rage bakugo!!!",
+      " members of the agency bakugo!!",
+      " members of the tregacyyy bakugo!!"
+    ],
+    "imgUrl": null,
+    "answer": { "alternative": " members of the legacy bakugo", "index": 0 }
+  },
+  {
+    "question": "Who are in his friend group?",
+    "alternatives": [
+      " Kirishima, Denki, Sero, Mina",
+      " Kirishima, Deku, Shoto, Tenya",
+      " Sero, Denki, Mineta",
+      " Tenya, Ochako, Deku, Shoto"
+    ],
+    "imgUrl": null,
+    "answer": { "alternative": " Kirishima, Denki, Sero, Mina", "index": 0 }
+  },
+  {
+    "question": "What is his quirk called?",
+    "alternatives": [" Denotation", " Ignition", " Dynamite", " Explosion"],
+    "imgUrl": null,
+    "answer": { "alternative": " Explosion", "index": 3 }
+  },
+  {
+    "question": "What did he want his hero name to be?",
+    "alternatives": [
+      " King Explosion Murder",
+      " Dynamite",
+      " TNT",
+      " Denotator"
+    ],
+    "imgUrl": null,
+    "answer": { "alternative": " King Explosion Murder", "index": 0 }
+  },
+  {
+    "question": "What is his height?",
+    "alternatives": [" 175cm", " 181cm", " 170cm", " 172cm"],
+    "imgUrl": null,
+    "answer": { "alternative": " 172cm", "index": 3 }
+  },
+  {
+    "question": "How old is he? (as of season 4)",
+    "alternatives": [" 17", " 14", " 15", " 16"],
+    "imgUrl": null,
+    "answer": { "alternative": " 16", "index": 3 }
+  },
+  {
+    "question": "What is his goal?",
+    "alternatives": [
+      " To save innocent lives and bring justice to the world!!",
+      " To surpass All Might and become the number 1 hero!!",
+      " To surpass Deku and become the number 1 hero!!",
+      " To restore peace in the world!!"
+    ],
+    "imgUrl": null,
+    "answer": {
+      "alternative": " To surpass All Might and become the number 1 hero!!",
+      "index": 1
+    }
+  },
+  {
+    "question": "What clan is Naruto from?",
+    "alternatives": [" Nara", " Uchiha", " Uzumaki", " IDK"],
+    "imgUrl": "https://i.quotev.com/42xiuqwmylta.jpg",
+    "answer": { "alternative": " Uzumaki", "index": 2 }
+  },
+  {
+    "question": "What team was Naruto on?",
+    "alternatives": [
+      " Team 8 (Kurenai)",
+      " Team 7(Kakashi)",
+      " Team 10 (Guy)",
+      " Team 10 (Asuma)"
+    ],
+    "imgUrl": "https://i.quotev.com/zhf2zzs2ehzq.jpg",
+    "answer": { "alternative": " Team 7(Kakashi)", "index": 1 }
+  },
+  {
+    "question": "What happened to Naruto when he was born?",
+    "alternatives": [
+      " He had the nine tailed fox sealed in him and both of his parents died",
+      " He lost his mom",
+      " He lost his dad",
+      " He was being cradled by both parents"
+    ],
+    "imgUrl": "https://i.quotev.com/jejp63olkw4a.jpg",
+    "answer": {
+      "alternative": " He had the nine tailed fox sealed in him and both of his parents died",
+      "index": 0
+    }
+  },
+  {
+    "question": "Who did Naruto like?",
+    "alternatives": [" Sakura", " Hinata", " Tenten", " Ino"],
+    "imgUrl": "https://i.quotev.com/bjdartnbjigq.jpg",
+    "answer": { "alternative": " Sakura", "index": 0 }
+  },
+  {
+    "question": "What was Naruto's favorite food?",
+    "alternatives": [
+      " Onigiri (aka rice balls)",
+      " Ramen",
+      " Barbeque",
+      " Chips"
+    ],
+    "imgUrl": "https://i.quotev.com/f5oj5jbtmthq.jpg",
+    "answer": { "alternative": " Ramen", "index": 1 }
+  },
+  {
+    "question": "Name all the Hokage in order.",
+    "alternatives": [
+      " Tsunade, Naruto, Tobirama, Hashirama, Kakashi, Hiruzen, Minato",
+      " Tobirama, Hiruzen, Kakashi, Naruto, Tsunade, Hashirama, Minato",
+      " Hashirama, Tobirama, Hiruzen, Minato, Tsunade, Kakashi, Naruto",
+      " Minato, Tsunade, Naruto, Tobirama, Hashirama, Kakashi, Hiruzen"
+    ],
+    "imgUrl": "https://i.quotev.com/npufagcsfzfa.jpg",
+    "answer": {
+      "alternative": " Hashirama, Tobirama, Hiruzen, Minato, Tsunade, Kakashi, Naruto",
+      "index": 2
+    }
+  },
+  {
+    "question": "Who is in the old Three-Way Deadlock Summoning?  ",
+    "alternatives": [
+      " Kabuto, Konohamaru, Hanabi",
+      " Hashirama, Tobirama, Hiruzen",
+      " Shikamaru, Choji, Ino",
+      " Tsunade, Jiraiya, Orochimaru"
+    ],
+    "imgUrl": "https://i.quotev.com/7sifmszaubsa.jpg",
+    "answer": { "alternative": " Hashirama, Tobirama, Hiruzen", "index": 1 }
+  },
+  {
+    "question": "Who is in the New Three-Way Deadlock Summoning?",
+    "alternatives": [
+      " Naruto, Sasuke, Sakura",
+      " Knonohamaru, Moegi, Udon",
+      " Hanabi, Neji, Hinata",
+      " Obviously Guy, Kakashi and Asuma"
+    ],
+    "imgUrl": null,
+    "answer": { "alternative": " Naruto, Sasuke, Sakura", "index": 0 }
+  },
+  {
+    "question": "Who are Naruto's parents?",
+    "alternatives": [
+      " Kushina and Minato",
+      " Tsunade and Jiraiya",
+      " Kakashi and Rin",
+      " Yahiko and Konan"
+    ],
+    "imgUrl": "https://i.quotev.com/7pnhij54zaxq.jpg",
+    "answer": { "alternative": " Kushina and Minato", "index": 0 }
+  },
+  {
+    "question": " How many tailed beasts are there?",
+    "alternatives": [" Seven", " Eight", " Twelve", " Nine"],
+    "imgUrl": "https://i.quotev.com/l74nx5nbvusq.jpg",
+    "answer": { "alternative": " Nine", "index": 3 }
+  },
+  {
+    "question": " Who was the first Uzumaki?",
+    "alternatives": [
+      " Mito Uzumaki (Senju)",
+      " Nagato Uzumaki",
+      " Kushina Uzumaki",
+      " Karin Uzumaki"
+    ],
+    "imgUrl": null,
+    "answer": { "alternative": " Mito Uzumaki (Senju)", "index": 0 }
+  },
+  {
+    "question": " How many sharingan eyes are there?",
+    "alternatives": [" 1", " 10", " 3", " 4"],
+    "imgUrl": "https://i.quotev.com/pl6fiiz43xca.jpg",
+    "answer": { "alternative": " 3", "index": 2 }
+  },
+  {
+    "question": " Who does Sasuke, Naruto, Choji, Shikamaru, Sai, and Kiba get with/marry?",
+    "alternatives": [
+      " None of the above",
+      " Sakura, Hinata, Karui, Temari, Ino, and Tamaki",
+      " Tsunade, Rin, Shizune, Kushina, Moegi, and Hanabi"
+    ],
+    "imgUrl": null,
+    "answer": {
+      "alternative": " Sakura, Hinata, Karui, Temari, Ino, and Tamaki",
+      "index": 1
+    }
+  },
+  {
+    "question": " Who is the child of Temari and Shikamaru?",
+    "alternatives": [" Inojin", " Chocho", " Himawari", " Shikadai"],
+    "imgUrl": "https://i.quotev.com/fzp7224da3sq.jpg",
+    "answer": { "alternative": " Shikadai", "index": 3 }
+  },
+  {
+    "question": " Who is the child of Sasuke and Sakura?",
+    "alternatives": [" Shikadai", " Himawari", " Boruto", " Sarada"],
+    "imgUrl": "https://i.quotev.com/xxggnsxixzgq.jpg",
+    "answer": { "alternative": " Shikadai", "index": 0 }
+  },
+  {
+    "question": " Who is Sai and Ino's child?",
+    "alternatives": [" Chocho", " Sarada", " Shikadai", " Inojin"],
+    "imgUrl": "https://i.quotev.com/wbawtjbdr5rq.jpg",
+    "answer": { "alternative": " Sarada", "index": 1 }
+  },
+  {
+    "question": "Who did Naruto marry and who are his kids?",
+    "alternatives": [
+      " Hinata, Shikadai and Sarada",
+      " Sakura, Inojin, and Chocho",
+      " Hinata, Boruto, and Himawari",
+      " None of the above"
+    ],
+    "imgUrl": "https://i.quotev.com/gjevrauevo7a.jpg",
+    "answer": { "alternative": " Hinata, Boruto, and Himawari", "index": 2 }
+  },
+  {
+    "question": "(1) We'll start easy. What was Soma's fried chicken wrap called?",
+    "alternatives": [
+      " Sumi Karaage Fried Chicken Wrap",
+      " Sumire Karaage Fried Chicken Wrap",
+      " Soma Yukihira Karaage Fried Chicken Wrap",
+      " Original Yukihira Sumire Karaage Fried Cicken Wrap"
+    ],
+    "imgUrl": "https://i.quotev.com/img/q/u/16/8/22/eczkqg36is.jpg",
+    "answer": {
+      "alternative": " Sumire Karaage Fried Chicken Wrap",
+      "index": 1
+    }
+  },
+  {
+    "question": "(2) A little harder now. What score did Isami Aldini get at the Tōtsuki Autumn Election Preliminary Round?",
+    "alternatives": [" 83", " 90", " 86", " 87"],
+    "imgUrl": "https://i.quotev.com/img/q/u/15/9/1/Isam.jpg",
+    "answer": { "alternative": " 87", "index": 3 }
+  },
+  {
+    "question": "(3) On which birthday of Ikumi Mito did she receive a teddy bear?",
+    "alternatives": [" 7th", " 10th", " 9th", " 5th"],
+    "imgUrl": "https://i.quotev.com/img/q/u/16/8/22/pyzxpqdjag.jpg",
+    "answer": { "alternative": " 9th", "index": 2 }
+  },
+  {
+    "question": "(4) What was the name of the restaurant that Ryo Kurokiba worked at when he was little?",
+    "alternatives": [
+      " It was never named",
+      " Kurokiba Pub",
+      " Tanyuki Pub",
+      " Sobare Pub"
+    ],
+    "imgUrl": "https://i.quotev.com/img/q/u/16/8/22/i7jmqhsqhb.jpg",
+    "answer": { "alternative": " It was never named", "index": 0 }
+  },
+  {
+    "question": "(5) What was the first part of the turtle Hisako Arato chopped off in the Tōtsuki Autumn Election Preliminary Round?",
+    "alternatives": [" The legs", " The tail", " The head"],
+    "imgUrl": "https://i.quotev.com/img/q/u/16/8/22/rmqwzxicq3.jpg",
+    "answer": { "alternative": " The head", "index": 2 }
+  },
+  {
+    "question": "(6) What color are Erina Nakiri's eyes?",
+    "alternatives": [" Yellow", " Purple", " Blue", " Green"],
+    "imgUrl": "https://i.quotev.com/img/q/u/16/8/22/nwzrm3l2ch.jpg",
+    "answer": { "alternative": " Purple", "index": 1 }
+  },
+  {
+    "question": "(7) What was the name of the bratty little girl at the kids' cooking class?",
+    "alternatives": [
+      " Asuna (High five if you know this reference)",
+      " Yuki",
+      " Miku",
+      " Kanon"
+    ],
+    "imgUrl": "https://i.quotev.com/img/q/u/16/8/22/zxqzv4qbm3.jpg",
+    "answer": { "alternative": " Kanon", "index": 3 }
+  },
+  {
+    "question": "(8) What is the animal on Isshiki Senpai's apron?",
+    "alternatives": [" Bunny", " Cat", " Bear", " Dog"],
+    "imgUrl": "https://i.quotev.com/img/q/u/16/8/22/ogdavxzpjx.jpg",
+    "answer": { "alternative": " Bear", "index": 2 }
+  },
+  {
+    "question": "(9) What flavor was Alice Nakiri's milkshake in the cooking camp final dish she prepared?",
+    "alternatives": [" Vanilla", " Caramel", " Chocolate", " Raspberry"],
+    "imgUrl": "https://i.quotev.com/img/q/u/16/8/22/aovvlmu22w.jpg",
+    "answer": { "alternative": " Caramel", "index": 1 }
+  },
+  {
+    "question": " (10) How old was Jun Shiomi when she met Akira Hamaya?",
+    "alternatives": [" 17", " 27", " 28", " 26"],
+    "imgUrl": "https://i.quotev.com/img/q/u/16/8/22/m3tkkh36gq.jpg",
+    "answer": { "alternative": " 26", "index": 3 }
+  },
+  {
+    "question": "What is his work out routine?..",
+    "alternatives": [
+      " Steroid",
+      " 100 situps 100 pushups 100 squats 10 Km run",
+      " Go to gym every day and use all the equipments there",
+      " 1000 situps 1000 pushups 1000 squats 100 Km run"
+    ],
+    "imgUrl": "https://i.quotev.com/b27hodgyclvq.jpg",
+    "answer": {
+      "alternative": " 100 situps 100 pushups 100 squats 10 Km run",
+      "index": 1
+    }
+  },
+  {
+    "question": "What threat level is the picture shown above?!",
+    "alternatives": [" Dragon", " Cat", " Demon", " God"],
+    "imgUrl": "https://i.quotev.com/pf5wqvcxlsoa.jpg",
+    "answer": { "alternative": " Demon", "index": 2 }
+  },
+  {
+    "question": "What is the name of Saitama's attack that defeats Boros?",
+    "alternatives": [
+      " Weak punch",
+      " God punch",
+      " Serious punch",
+      " One punch"
+    ],
+    "imgUrl": "https://i.quotev.com/ellv433wtxjq.jpg",
+    "answer": { "alternative": " Serious punch", "index": 2 }
+  },
+  {
+    "question": "How far does Boros punch Saitama?",
+    "alternatives": [" To Pluto", " To the moon", " To Saturn", " To the sun"],
+    "imgUrl": "https://i.quotev.com/ng6kfeuilypq.jpg",
+    "answer": { "alternative": " To the moon", "index": 1 }
+  },
+  {
+    "question": "Why does Saitama kill Carnage Kabuto?",
+    "alternatives": [
+      " Bacause it’s the right thing to do!",
+      " He was evil and evil ppl die",
+      " Because saitam missed one day only sale",
+      " He was to ugly"
+    ],
+    "imgUrl": "https://i.quotev.com/zcborbdosata.jpg",
+    "answer": {
+      "alternative": " Because saitam missed one day only sale",
+      "index": 2
+    }
+  },
+  {
+    "question": "What bug drives saitama crazy?",
+    "alternatives": [" Mosquito", " Ant", " Wasp", " A fly"],
+    "imgUrl": "https://i.quotev.com/zoqbllchnw4a.jpg",
+    "answer": { "alternative": " Mosquito", "index": 0 }
+  },
+  {
+    "question": "When is Todoroki's birthday?",
+    "alternatives": [
+      " June 14th",
+      " May 10th",
+      " January 11th",
+      " December 9th"
+    ],
+    "imgUrl": "https://i.quotev.com/t43hdyv72xua.jpg",
+    "answer": { "alternative": " January 11th", "index": 2 }
+  },
+  {
+    "question": "How old is Todoroki?",
+    "alternatives": [" 16", " 17", " 15", " 14"],
+    "imgUrl": "https://i.quotev.com/57awyacsm5iq.jpg",
+    "answer": { "alternative": " 16", "index": 0 }
+  },
+  {
+    "question": "How did Todoroki get a scar?",
+    "alternatives": [
+      " It is part of his quirk",
+      " He got it while training",
+      " He tripped and fell",
+      " His mother poured a pot of boiling water on his face"
+    ],
+    "imgUrl": "https://i.quotev.com/gwsguymsbxiq.jpg",
+    "answer": {
+      "alternative": " His mother poured a pot of boiling water on his face",
+      "index": 3
+    }
+  },
+  {
+    "question": "What is his quirk?",
+    "alternatives": [
+      " Hardening",
+      " Half-Cold Half-Hot",
+      " Zero Gravity",
+      " Engine"
+    ],
+    "imgUrl": "https://i.quotev.com/3u67rjx6nxxa.jpg",
+    "answer": { "alternative": " Half-Cold Half-Hot", "index": 1 }
+  },
+  {
+    "question": "What is Todoroki's height?",
+    "alternatives": [" 6'1", " 5'9", " 5'7", " 6'0"],
+    "imgUrl": "https://i.quotev.com/yljlpktmuica.jpg",
+    "answer": { "alternative": " 5'9", "index": 1 }
+  },
+  {
+    "question": "How many siblings does he have?",
+    "alternatives": [" 2", " 4", " 1", " 3"],
+    "imgUrl": "https://i.quotev.com/zqsdmd7pqfzq.jpg",
+    "answer": { "alternative": " 3", "index": 3 }
+  },
+  {
+    "question": "What is his Hero name?",
+    "alternatives": [
+      " Icyhot",
+      " Todoroki",
+      " Shoto",
+      " Half and Half-Bastard"
+    ],
+    "imgUrl": "https://i.quotev.com/wh4i3v5j5lqq.jpg",
+    "answer": { "alternative": " Shoto", "index": 2 }
+  },
+  {
+    "question": "What is his Blood type?",
+    "alternatives": [" O", " A", " B", " AB"],
+    "imgUrl": "https://i.quotev.com/5lg2k4blwjiq.jpg",
+    "answer": { "alternative": " O", "index": 0 }
+  },
+  {
+    "question": "Pipsqeak older brother uses chemistry to protect younger brother that has no body and only a soul stuck inside an armor, while looking for a stone that can only be created by genocide.",
+    "alternatives": [
+      " My Hero Academia",
+      " Fullmetal Alchemist",
+      " Hunter x Hunter",
+      " Angels of Death",
+      " Danganronpa"
+    ],
+    "imgUrl": null,
+    "answer": { "alternative": " Fullmetal Alchemist", "index": 1 }
+  },
+  {
+    "question": "High school boy follows in his idol's footsteps all while being bullied because of jealousy and bully gets kidnapped by bad guys because they want him to join the dark side.",
+    "alternatives": [
+      " Hunter x Hunter",
+      " My Hero Academia",
+      " Charolette",
+      " Bungo Stray Dogs",
+      " Golden Time"
+    ],
+    "imgUrl": null,
+    "answer": { "alternative": " My Hero Academia", "index": 1 }
+  },
+  {
+    "question": "Bald guy is bored because he is overpowered and cannot be beaten.",
+    "alternatives": [
+      " Fullmetal Alchemist",
+      " Hunter x Hunter",
+      " One Punch Man",
+      " Seraph of the End",
+      " The Seven Deadly Sins"
+    ],
+    "imgUrl": null,
+    "answer": { "alternative": " One Punch Man", "index": 2 }
+  },
+  {
+    "question": "Twelve year old with strong sense of smell looks for his dad with his best friend assassin.",
+    "alternatives": [
+      " Hunter x Hunter",
+      " My Hero Academia",
+      " Fullmetal Alchemist",
+      " The Seven Deadly Sins",
+      " Charolette"
+    ],
+    "imgUrl": null,
+    "answer": { "alternative": " Hunter x Hunter", "index": 0 }
+  },
+  {
+    "question": "Poor girl goes into rich school because of scholarship and is mistaken as a boy and joins a host club that she hates at first but end up loving.",
+    "alternatives": [
+      " Maid-Sama",
+      " The Seven Deadly Sins",
+      " Himouto- Umaru-Chan!",
+      " Ouran High School Host Club",
+      " God of Highschool"
+    ],
+    "imgUrl": null,
+    "answer": { "alternative": " Ouran High School Host Club", "index": 3 }
+  },
+  {
+    "question": "Girl is student council president and harsh on boys but works at a maid cafe and is teased by this boy that has eyes for only her.",
+    "alternatives": [
+      " Ouran Highschool Host Club",
+      " Maid-Sama",
+      " Kakegurui",
+      " Miss Kobiyashi's Dragon Maid",
+      " Golden Time"
+    ],
+    "imgUrl": null,
+    "answer": { "alternative": " Maid-Sama", "index": 1 }
+  },
+  {
+    "question": "Boy with ability travels the world to get rid of everyone else's ability.",
+    "alternatives": [
+      " Ouran Highschool Host Club",
+      " Kakegurui",
+      " Charolette",
+      " Bungo Stray Dogs",
+      " Fairy Tail"
+    ],
+    "imgUrl": null,
+    "answer": { "alternative": " Charolette", "index": 2 }
+  },
+  {
+    "question": "Boy and his best friend are separated by vampires and boy is a vampire hunter while best friend is a vampire",
+    "alternatives": [
+      " Vampire Knight",
+      " Diabolik Lovers",
+      " Bungo Stray Dogs",
+      " Sword Art Online",
+      " Seraph of the End"
+    ],
+    "imgUrl": null,
+    "answer": { "alternative": " Seraph of the End", "index": 4 }
+  },
+  {
+    "question": "Boy gets stuck in game and if he dies in game. He dies in real life and he falls in love with a girl that is good at cooking",
+    "alternatives": [
+      " No Game, No Life",
+      " Sword Art Online",
+      " Fullmetal Alchemist",
+      " High Score Girl",
+      " Seraph of the End"
+    ],
+    "imgUrl": null,
+    "answer": { "alternative": " Sword Art Online", "index": 1 }
+  },
+  {
+    "question": " When opposite sex hugs them, they turn into animals.",
+    "alternatives": [
+      " Ouran High school Host Club",
+      " Fruits Basket",
+      " Code Geass",
+      " The Seven Deadly Sins",
+      " Sword Art Online"
+    ],
+    "imgUrl": null,
+    "answer": { "alternative": " Fruits Basket", "index": 1 }
+  },
+  {
+    "question": " Young boy has butler that is a demon.",
+    "alternatives": [
+      " Blue Exorcist",
+      " Fruits Basket",
+      " The Seven Deadly Sins",
+      " Seraph of the End",
+      " Black Butler"
+    ],
+    "imgUrl": null,
+    "answer": { "alternative": " Black Butler", "index": 4 }
+  },
+  {
+    "question": " Girl spawns zodiacs with keys and boy has fire magic.",
+    "alternatives": [
+      " Fruits Basket",
+      " Black Butler",
+      " Naruto",
+      " One Piece",
+      " Fairy Tail"
+    ],
+    "imgUrl": null,
+    "answer": { "alternative": " Fairy Tail", "index": 4 }
+  },
+  {
+    "question": " Giant humans eat smaller humans",
+    "alternatives": [
+      " Hunter x Hunter",
+      " Tokyo Ghoul",
+      " Attack on Titan",
+      " The Seven Deadly Sins",
+      " Blue Exorcist"
+    ],
+    "imgUrl": null,
+    "answer": { "alternative": " Attack on Titan", "index": 2 }
+  },
+  {
+    "question": " Short blonde is perverted to princess and saves the day with his six buddies.",
+    "alternatives": [
+      " Attack on Titan",
+      " My Hero Academia",
+      " Fullmetal Alchemist",
+      " The Seven Deadly Sins",
+      " Fairy Tail"
+    ],
+    "imgUrl": null,
+    "answer": { "alternative": " The Seven Deadly Sins", "index": 3 }
+  },
+  {
+    "question": " Classmates kill each other in order to graduate and escape a black and white murderous bear.",
+    "alternatives": [
+      " Kill la Kill",
+      " Assassination Classroom",
+      " Blue Exorcist",
+      " Danganronpa",
+      " Angels of Death"
+    ],
+    "imgUrl": null,
+    "answer": { "alternative": " Danganronpa", "index": 3 }
+  },
+  {
+    "question": " First date with girl went bad and boy almost died when girl's insides were transplanted inside him and he turned into a monster.",
+    "alternatives": [
+      " Fullmetal Alchemist",
+      " Attack on Titan",
+      " Tokyo Ghoul",
+      " Miss Kobiyashi's Dragon Maid",
+      " Sword Art Online"
+    ],
+    "imgUrl": null,
+    "answer": { "alternative": " Tokyo Ghoul", "index": 2 }
+  },
+  {
+    "question": " Girl battles people with powerful but very revealing armor.",
+    "alternatives": [
+      " Kill la Kill",
+      " Akame Ga Kill",
+      " Highschool DxD",
+      " Fairy Tail",
+      " Danganronpa"
+    ],
+    "imgUrl": null,
+    "answer": { "alternative": " Kill la Kill", "index": 0 }
+  },
+  {
+    "question": " Pervert boy becomes pawn for demon girl",
+    "alternatives": [
+      " High school DxD",
+      " Blue Exorcist",
+      " Demon Slayer",
+      " Akame Ga Kill",
+      " The Seven Deadly Sins"
+    ],
+    "imgUrl": null,
+    "answer": { "alternative": " High school DxD", "index": 0 }
+  },
+  {
+    "question": " Sexulizes eating food...If you don't get this one right, you probably shouldn't be here.",
+    "alternatives": [
+      " Food Wars",
+      " Akame Ga Kill",
+      " Danganronpa",
+      " My Hero Academia",
+      " Prison School"
+    ],
+    "imgUrl": null,
+    "answer": { "alternative": " Food Wars", "index": 0 }
+  },
+  {
+    "question": " Twin brothers that are the sons of Satan fight demons.",
+    "alternatives": [
+      " Kill la Kill",
+      " Demon Slayer",
+      " Black Butler",
+      " Blue Exorcist",
+      " The Devil is a Part Timer"
+    ],
+    "imgUrl": null,
+    "answer": { "alternative": " Blue Exorcist", "index": 3 }
+  },
+  {
+    "question": " Satan has no magic power therefore he has to make a living in the human world with a human body.",
+    "alternatives": [
+      " Demon Slayer",
+      " The Devil is a Part Timer",
+      " Black Butler",
+      " The Seven Deadly Sins",
+      " Vampire Knight"
+    ],
+    "imgUrl": null,
+    "answer": { "alternative": " The Devil is a Part Timer", "index": 1 }
+  },
+  {
+    "question": " Vampire dudes fight over girl and she chooses her brother",
+    "alternatives": [
+      " Seraph of the End",
+      " Diabolik Lovers",
+      " Vampire Knight",
+      " Black Butler",
+      " Fairy Tail"
+    ],
+    "imgUrl": null,
+    "answer": { "alternative": " Vampire Knight", "index": 2 }
+  },
+  {
+    "question": " Killer notebook and death gods eating apples",
+    "alternatives": [
+      " God of Highschool",
+      " Noragami",
+      " Death Note",
+      " Death Parade",
+      " Kakegurui"
+    ],
+    "imgUrl": null,
+    "answer": { "alternative": " Death Note", "index": 2 }
+  },
+  {
+    "question": " God that kills phantoms",
+    "alternatives": [
+      " Durarara",
+      " Noragami",
+      " God of Highschool",
+      " Death Parade",
+      " Charolette"
+    ],
+    "imgUrl": null,
+    "answer": { "alternative": " Noragami", "index": 1 }
+  },
+  {
+    "question": " Gambling. Detailed Gambling.",
+    "alternatives": [
+      " God of Highschool",
+      " Durarara",
+      " Noragami",
+      " Kakegurui",
+      " Kill la Kill"
+    ],
+    "imgUrl": null,
+    "answer": { "alternative": " Kakegurui", "index": 3 }
+  },
+  {
+    "question": " Gay swim team",
+    "alternatives": [
+      " Haikyuu",
+      " Free",
+      " Hunter x Hunter",
+      " Danganronpa",
+      " Noragami"
+    ],
+    "imgUrl": null,
+    "answer": { "alternative": " Free", "index": 1 }
+  },
+  {
+    "question": "Who is the main character in the series?",
+    "alternatives": [" Levi", " Eren", " Mikasa", " Jean"],
+    "imgUrl": "https://i.quotev.com/img/q/u/20/4/12/ueitkfchdj.jpg",
+    "answer": { "alternative": " Eren", "index": 1 }
+  },
+  {
+    "question": "How many titans did Eren kill in his human form?",
+    "alternatives": [" 2", " 1", " Umm.60?", " 4"],
+    "imgUrl": "https://i.quotev.com/img/q/u/20/4/12/ae6ohegtes.jpg",
+    "answer": { "alternative": " 1", "index": 1 }
+  },
+  {
+    "question": "What is the name of the largest wall?",
+    "alternatives": [
+      " Wall Maria",
+      " Wall rose",
+      " They are all the same size",
+      " Wall sina"
+    ],
+    "imgUrl": "https://i.quotev.com/img/q/u/20/4/12/h67ypoz66l.jpg",
+    "answer": { "alternative": " Wall Maria", "index": 0 }
+  },
+  {
+    "question": "What is Eren's father name?",
+    "alternatives": [" Grisha", " Hannes", " Keith", " Leonhart"],
+    "imgUrl": "https://i.quotev.com/img/q/u/20/4/12/he32dftxoj.jpg",
+    "answer": { "alternative": " Grisha", "index": 0 }
+  },
+  {
+    "question": "Who is the first person to be showed getting eaten by a titan?",
+    "alternatives": [" A young girl", " Carla yeager", " Hannes", " Marlo"],
+    "imgUrl": "https://i.quotev.com/img/q/u/20/4/12/ycg5icalwg.jpg",
+    "answer": { "alternative": " Carla yeager", "index": 1 }
+  },
+  {
+    "question": "What is Sasha's nickname?",
+    "alternatives": [
+      " Cry baby",
+      " Queen of noses",
+      " Suicidal brat",
+      " Potato girl"
+    ],
+    "imgUrl": "https://i.quotev.com/img/q/u/20/4/12/vwardhkggy.jpg",
+    "answer": { "alternative": " Potato girl", "index": 3 }
+  },
+  {
+    "question": "Who inherted the founding titan powers after Uri Reiss?",
+    "alternatives": [
+      " Levi",
+      " Grisha Yeager",
+      " Freida Reiss",
+      " Historia Reiss"
+    ],
+    "imgUrl": "https://i.quotev.com/img/q/u/20/4/12/phtkvhjh3c.jpg",
+    "answer": { "alternative": " Freida Reiss", "index": 2 }
+  },
+  {
+    "question": "Who was the reason in Marco's death?",
+    "alternatives": [
+      " Reiner,Annie and Bertholdt",
+      " Sasha and connie",
+      " Attacked by 4 titans",
+      " Erwin and levi"
+    ],
+    "imgUrl": "https://i.quotev.com/img/q/u/20/4/12/7kj7vtyj7b.jpg",
+    "answer": { "alternative": " Reiner,Annie and Bertholdt", "index": 0 }
+  },
+  {
+    "question": "What did Armin want to see the most?",
+    "alternatives": [" The zoo", " The ocean", " The desert", " The mountains"],
+    "imgUrl": "https://i.quotev.com/img/q/u/20/4/12/diwaqulzt4.jpg",
+    "answer": { "alternative": " The ocean", "index": 1 }
+  },
+  {
+    "question": " Who was the first to call Jean a horse face?",
+    "alternatives": [" Marco", " Mikasa", " Annie", " Eren"],
+    "imgUrl": "https://i.quotev.com/img/q/u/20/4/12/ely2gpztdp.jpg",
+    "answer": { "alternative": " Eren", "index": 3 }
+  },
+  {
+    "question": " Who is the armored titan?",
+    "alternatives": [" Levi", " Eren", " Reiner", " Zeke"],
+    "imgUrl": "https://i.quotev.com/img/q/u/20/4/12/v2kdfdw7k5.jpg",
+    "answer": { "alternative": " Reiner", "index": 2 }
+  },
+  {
+    "question": " Who turned ragako villagers into titans?",
+    "alternatives": [
+      " The cart titan",
+      " The collosal titan",
+      " The beast titan",
+      " The attack titan"
+    ],
+    "imgUrl": "https://i.quotev.com/img/q/u/20/4/12/rxl6h7q47g.jpg",
+    "answer": { "alternative": " The beast titan", "index": 2 }
+  },
+  {
+    "question": " What were levi's first words?",
+    "alternatives": [" Tch", " Nifaaaaa", " Shut up", " Brat"],
+    "imgUrl": "https://i.quotev.com/img/q/u/20/4/12/xgoh3y4orl.jpg",
+    "answer": { "alternative": " Shut up", "index": 2 }
+  }
+]
