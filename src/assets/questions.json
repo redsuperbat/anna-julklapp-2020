@@ -501,6 +501,7 @@
     "question": "What is his Blood type?",
     "alternatives": [" O", " A", " B", " AB"],
     "imgUrl": "https://i.quotev.com/5lg2k4blwjiq.jpg",
+    "answer": { "alternative": " O", "index": 0 },
     "quiz": "How much do you know about Shoto Todoroki"
   },
   {

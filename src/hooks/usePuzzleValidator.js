@@ -26,7 +26,6 @@ const usePuzzleValidator = (index) => {
     );
     const validators = Object.values({ ...columns, ...rows, ...diagonals });
     for (const value of validators) {
-      console.log(value);
       if (value === 5) {
         hasWon.value = true;
       }
@@ -65,7 +64,6 @@ const usePuzzleValidator = (index) => {
     }
   }
   function addIndexToColumn(index) {
-    console.log(columns);
     if (verticalIndexes.col1.includes(index)) {
       columns.first++;
       return;
