@@ -1,17 +1,19 @@
 <template>
   <div
-    class="flex flex-col items-center h-screen"
+    class="flex flex-col items-center h-screen relative"
     style="background-image: url(https://cdn140.picsart.com/321921542060201.gif);background-size: contain;"
   >
-    <h1 class="text-2xl my-4 text-yellow-500">Animebingo</h1>
+    <Button label="Restart" class="absolute top-2 right-1" @click="restart" />
+    <h1 class="text-2xl my-2 text-yellow-500">Animebingo</h1>
     <h2 class="text-lg text-purple-600">Only for the weebiest of weebs</h2>
-    <h4 class="text-md py-4 text-center">
+    <h4 class="text-md py-2 font-bold text-center">
       För att få den sanna presenten måste du vinna detta spel. Bevisa att du är
-      den weebiaste weeaboon!!!
+      den weebigaste weeaboon!!!
     </h4>
     <div
-      class="grid max-w-4xl  grid-cols-5 grid-rows-5 gap-1 sm:gap-2"
-      style="height: 90vmin; width:90vmin; max-height: 56rem;"
+      class="grid max-w-xl  grid-cols-5 grid-rows-5 gap-1 sm:gap-2"
+      style="height: 90vmin; width:90vmin; max-height: 36rem;"
+      :key="resetKey"
     >
       <Question
         v-for="(question, i) in questions"
@@ -24,12 +26,12 @@
       />
     </div>
     <div v-if="meme" class="flex flex-col items-center p-4">
-      <h1 class="text-center text-ls">
+      <h1 class="text-center text-lg font-bold">
         {{ text }}
       </h1>
       <img
         :src="meme"
-        class="w-5/6 xyz-in"
+        class="w-5/6 xyz-in max-w-lg"
         xyz="fade up-100 flip-down flip-right-50 rotate-left-100 origin-bottom duration-10"
       />
     </div>
@@ -37,31 +39,47 @@
 </template>
 
 <script>
-import { computed, ref, watch } from "vue";
+import { onUnmounted, ref, watch } from "vue";
 import { chooseRandom } from "../../utils";
+import { useStore } from "vuex";
+import { useRouter } from "vue-router";
 import { correctAnswerGif, weeaboLinks } from "../../assets/constants";
 import usePuzzleValidator from "../../hooks/usePuzzleValidator";
 import useAudio from "../../hooks/useAudio";
 
 import Question from "./Question.vue";
+import Button from "@/components/Button.vue";
 
 export default {
   setup() {
     const allQuestions = ref([]);
     allQuestions.value = require("../../assets/questions.json");
-    const questions = computed(() => chooseRandom(allQuestions.value, 25));
+    const questions = ref([]);
+    chooseRandomQuestions();
+
     const latestAnswer = ref(-1);
-    const { hasWon } = usePuzzleValidator(latestAnswer);
+    const store = useStore();
+    const router = useRouter();
+    const { hasWon, reset } = usePuzzleValidator(latestAnswer);
     watch(hasWon, (hasWon) => {
       if (hasWon) {
-        alert("You have won!");
+        store.commit("SET_HAS_WON", hasWon);
+        router.push("/winner");
       }
     });
+
+    function chooseRandomQuestions() {
+      questions.value = chooseRandom(allQuestions.value, 25);
+    }
 
     // Play endless soundtrack!!
     const { soundtrack, wow, NANI } = useAudio();
     soundtrack.play();
     soundtrack.onended = () => soundtrack.play();
+    // Pause when navigate from page
+    onUnmounted(() => {
+      soundtrack.pause();
+    });
 
     const meme = ref("");
     const text = ref("");
@@ -81,7 +99,7 @@ export default {
       timeout = setTimeout(() => {
         meme.value = "";
         text.value = "";
-      }, 5000);
+      }, 8000);
     }
 
     function handleWrongAnswer() {
@@ -98,6 +116,13 @@ export default {
       text.value = "";
     }
 
+    const resetKey = ref(false);
+    function restart() {
+      reset();
+      chooseRandomQuestions();
+      resetKey.value = !resetKey.value;
+    }
+
     return {
       questions,
       handleCorrectAnswer,
@@ -105,10 +130,13 @@ export default {
       meme,
       text,
       handleTileSelected,
+      restart,
+      resetKey,
     };
   },
   components: {
     Question,
+    Button,
   },
 };
 </script>

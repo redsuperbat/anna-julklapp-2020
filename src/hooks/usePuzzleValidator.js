@@ -14,6 +14,20 @@ const usePuzzleValidator = (index) => {
     validate();
   });
 
+  function reset() {
+    for (const key of Object.keys(rows)) {
+      console.log(key);
+      rows[key] = 0;
+    }
+    for (const key of Object.keys(columns)) {
+      columns[key] = 0;
+    }
+    for (const key of Object.keys(diagonals)) {
+      diagonals[key] = 0;
+    }
+    console.log({ rows, columns, diagonals });
+  }
+
   function validate() {
     const validators = Object.values({ ...columns, ...rows, ...diagonals });
     for (const value of validators) {
@@ -77,7 +91,7 @@ const usePuzzleValidator = (index) => {
     }
   }
 
-  return { hasWon };
+  return { hasWon, reset };
 };
 
 export default usePuzzleValidator;

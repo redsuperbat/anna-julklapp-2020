@@ -5,7 +5,7 @@
     </h1>
     <img
       src="https://i.imgur.com/uHH05u0.png"
-      class="w-5/6 max-w-md"
+      class="w-5/6 max-w-md animate-jump"
       @click="handlePresentClick"
     />
   </div>

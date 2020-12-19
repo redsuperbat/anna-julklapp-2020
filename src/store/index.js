@@ -1,8 +1,12 @@
 import { createStore } from "vuex";
 
 const store = createStore({
-  state: {},
-  mutations: {},
+  state: {
+    hasWon: false,
+  },
+  mutations: {
+    SET_HAS_WON: (state, hasWon) => (state.hasWon = hasWon),
+  },
   actions: {},
   modules: {},
 });

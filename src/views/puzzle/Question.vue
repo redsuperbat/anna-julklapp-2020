@@ -16,7 +16,11 @@
   </div>
   <Dialog v-model="dialog">
     <div class="flex flex-col">
-      <img v-if="question.imgUrl" :src="question.imgUrl" class="w-full" />
+      <img
+        v-if="question.imgUrl"
+        :src="question.imgUrl"
+        class="w-full max-h-60 object-contain"
+      />
       <h4 class="italic uppercase underline text-xs p-1">
         {{ question.quiz }}
       </h4>
