@@ -29,3 +29,6 @@ export const weeaboLinks = [
 ];
 
 export const correctAnswerGif = "https://i.imgur.com/7wsMvC8.gif";
+
+export const priceUrl =
+  "https://firebasestorage.googleapis.com/v0/b/anna-christmas-2020.appspot.com/o/Gmail%20-%20Order%204621998%20confirmation%20for%20Waves%20__%20PewDiePie.pdf?alt=media&token=6ed9367c-5ba2-4bfb-9ce1-7f149282fa37";
