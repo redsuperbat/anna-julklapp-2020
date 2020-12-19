@@ -84,8 +84,7 @@ export default {
       }, 5000);
     }
 
-    function handleWrongAnswer(index) {
-      console.log(index);
+    function handleWrongAnswer() {
       NANI.play();
       const randomMeme = chooseRandom(weeaboLinks, 1)[0];
       showMeme(

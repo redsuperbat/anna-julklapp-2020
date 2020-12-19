@@ -15,19 +15,9 @@ const usePuzzleValidator = (index) => {
   });
 
   function validate() {
-    console.log(
-      "Validating...",
-      "Columns:",
-      columns,
-      "Rows:",
-      rows,
-      "Diagonals:",
-      diagonals
-    );
     const validators = Object.values({ ...columns, ...rows, ...diagonals });
     for (const value of validators) {
       if (value === 5) {
-        console.log("WOW YOU WON!!!!");
         hasWon.value = true;
       }
     }
