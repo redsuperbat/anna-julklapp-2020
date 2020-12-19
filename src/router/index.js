@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
-// import store from "../store";
+import store from "../store";
 import Home from "../views/Home.vue";
 
 const router = createRouter({
@@ -20,10 +20,9 @@ const router = createRouter({
       path: "/winner",
       name: "Winner",
       beforeEnter: () => {
-        // if (!store.state.hasWon) {
-        //   return "/puzzle";
-        // }
-        //
+        if (!store.state.hasWon) {
+          return "/puzzle";
+        }
       },
       component: () => import("@/views/winner/Winner.vue"),
     },
