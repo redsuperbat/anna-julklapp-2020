@@ -46,7 +46,7 @@ export default {
     function playAgain() {
       router.replace("/puzzle");
     }
-    const partyPoppers = "🎉 🎉 🎉 🎉 🎉 🎉 🎉 🎉 🎉 🎉 🎉 🎉 ";
+    const partyPoppers = "🎉 🎉 🎉 🎉 🎉 🎉 🎉 🎉 🎉 🎉 🎉 🎉";
     const winnerText = "Snyggt Anna! Välförtjänt av din julklapp";
 
     const { show, toggleShow } = useShow();
