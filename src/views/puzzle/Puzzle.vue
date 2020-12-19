@@ -1,7 +1,14 @@
 <template>
-  <div class="flex flex-col items-center">
-    <h1 class="text-2xl my-4">Animebingo</h1>
-    <h2 class="text-lg">Only for the weebiest of weebs</h2>
+  <div
+    class="flex flex-col items-center h-screen"
+    style="background-image: url(https://cdn140.picsart.com/321921542060201.gif);background-size: contain;"
+  >
+    <h1 class="text-2xl my-4 text-yellow-500">Animebingo</h1>
+    <h2 class="text-lg text-purple-600">Only for the weebiest of weebs</h2>
+    <h4 class="text-md py-4 text-center">
+      För att få den sanna presenten måste du vinna detta spel. Bevisa att du är
+      den weebiaste weeaboon!!!
+    </h4>
     <div
       class="grid max-w-4xl  grid-cols-5 grid-rows-5 gap-1 sm:gap-2"
       style="height: 90vmin; width:90vmin; max-height: 56rem;"
@@ -34,6 +41,7 @@ import { computed, ref, watch } from "vue";
 import { chooseRandom } from "../../utils";
 import { correctAnswerGif, weeaboLinks } from "../../assets/constants";
 import usePuzzleValidator from "../../hooks/usePuzzleValidator";
+import useAudio from "../../hooks/useAudio";
 
 import Question from "./Question.vue";
 
@@ -50,11 +58,17 @@ export default {
       }
     });
 
+    // Play endless soundtrack!!
+    const { soundtrack, wow, NANI } = useAudio();
+    soundtrack.play();
+    soundtrack.onended = () => soundtrack.play();
+
     const meme = ref("");
     const text = ref("");
     let timeout = null;
     function handleCorrectAnswer(index) {
       latestAnswer.value = index;
+      wow.play();
       showMeme(
         correctAnswerGif,
         "WOO! Sann weeaboo du är! Snart så vinner du!!!!"
@@ -72,6 +86,7 @@ export default {
 
     function handleWrongAnswer(index) {
       console.log(index);
+      NANI.play();
       const randomMeme = chooseRandom(weeaboLinks, 1)[0];
       showMeme(
         randomMeme,

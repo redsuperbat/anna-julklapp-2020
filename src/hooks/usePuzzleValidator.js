@@ -2,8 +2,8 @@ import { ref, watch } from "vue";
 import { verticalIndexes, diagonalIndexes } from "../assets/constants";
 
 const usePuzzleValidator = (index) => {
-  const rows = { first: 0, second: 0, third: 0, fourth: 0, fifth: 0 };
-  const columns = { first: 0, second: 0, third: 0, fourth: 0, fifth: 0 };
+  const rows = { r1: 0, r2: 0, r3: 0, r4: 0, r5: 0 };
+  const columns = { c1: 0, c2: 0, c3: 0, c4: 0, c5: 0 };
   const diagonals = { d1: 0, d2: 0 };
   const hasWon = ref(false);
 
@@ -27,6 +27,7 @@ const usePuzzleValidator = (index) => {
     const validators = Object.values({ ...columns, ...rows, ...diagonals });
     for (const value of validators) {
       if (value === 5) {
+        console.log("WOW YOU WON!!!!");
         hasWon.value = true;
       }
     }
@@ -43,45 +44,45 @@ const usePuzzleValidator = (index) => {
 
   function addIndexToRow(index) {
     if (index < 5) {
-      rows.first++;
+      rows.r1++;
       return;
     }
     if (index < 10) {
-      rows.second++;
+      rows.r2++;
       return;
     }
     if (index < 15) {
-      rows.third++;
+      rows.r3++;
       return;
     }
     if (index < 20) {
-      rows.fourth++;
+      rows.r4++;
       return;
     }
     if (index < 25) {
-      rows.fifth++;
+      rows.r5++;
       return;
     }
   }
   function addIndexToColumn(index) {
     if (verticalIndexes.col1.includes(index)) {
-      columns.first++;
+      columns.c1++;
       return;
     }
     if (verticalIndexes.col2.includes(index)) {
-      columns.second++;
+      columns.c2++;
       return;
     }
     if (verticalIndexes.col3.includes(index)) {
-      columns.third++;
+      columns.c3++;
       return;
     }
     if (verticalIndexes.col4.includes(index)) {
-      columns.fourth++;
+      columns.c4++;
       return;
     }
     if (verticalIndexes.col5.includes(index)) {
-      columns.fifth++;
+      columns.c5++;
       return;
     }
   }
