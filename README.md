@@ -1,4 +1,4 @@
-# anna-julklapp-2020
+# Anna Julklapp 2020
 
 ## Project setup
 ```
@@ -20,5 +20,6 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Purpose
+
+This is a project dedicated to my sister and her obsession of anime. Proceed with caution when visiting https://anna.netterberg.com :rocket:
